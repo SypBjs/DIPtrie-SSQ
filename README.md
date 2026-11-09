@@ -19,7 +19,7 @@ Run the following commands in the root directory:
 ```bash
 chmod +x compile.sh
 ./compile.sh
-Step 2: Execute the program
+**Step 2: Execute the program**
 Run the executable by specifying the dataset (-d) and the threshold (-t, default is 0.6).
 # View help
 ./bin/DIPtrieSSQ -h
@@ -27,14 +27,14 @@ Run the executable by specifying the dataset (-d) and the threshold (-t, default
 # Run with default threshold (0.6)
 ./bin/DIPtrieSSQ -d retail
 
-3. Dataset Preparation
+## 3. Dataset Preparation
 The datasets and their corresponding query sets used in our experiments need to be placed in the directory.
 
 Dataset files: retail.txt, kosarak.txt
 
 Query set files: retail.txt_query, kosarak.txt_query
 
-4. How to Run
+## 4. How to Run
 Download the code, dataset, and query set.
 
 In the DatasetConfig datasets[] array in main.cpp, specify the actual file paths of the dataset (datafile_path) and query set (queryfile_path) for msweb, retail, kosarak, and tweets respectively.
